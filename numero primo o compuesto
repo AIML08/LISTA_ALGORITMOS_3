@@ -1,0 +1,26 @@
+#include <iostream>
+
+
+
+using namespace std;
+
+
+
+int main()
+{
+    int N;
+    cin>>N;
+    
+    if(N % 2 != 2){
+        cout<<"Es primo"<<endl;
+    } else {
+        cout<<"Compuesto"<<endl;
+    }
+
+
+
+   return 0;
+}
+
+
+
