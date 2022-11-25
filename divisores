@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+   int N;
+   float A, B, C, D, E, F, G;
+   
+   cin >>N ;
+   
+   A=N/1;
+   B=N/2;
+   C=N/3;
+   D=N/4;
+   F=N/6;
+   G=N/7;
+    
+    cout <<A<<" ";
+    cout<<B<<" ";
+    cout<<C<<"2";
+    cout<<D<<" ";
+    cout<<F<<" ";
+    cout<<G<<" ";
+   
+   
+
+    return 0;
+}
