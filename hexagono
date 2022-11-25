@@ -1,0 +1,53 @@
+#include <iostream>
+using namespace std;
+
+
+
+int main ()
+{
+    int g, i, hexagono;
+
+    printf ("LADOS: ");
+    scanf ("%i",&hexagono);
+
+    for (g = 0;g<hexagono - 1;g++){
+        printf (" ");
+    }
+    for (g = 0;g<hexagono;g++){
+        printf ("*");
+    }
+
+    for (i = 1;i<hexagono - 1;i++){
+        printf ("\n");
+        for (g = 0;g<hexagono-i - 1;g++){
+            printf (" ");
+        }
+        printf ("*");
+        for (g = 0;g<hexagono + 2 * i - 2;g++){
+            printf (" ");
+        }
+        printf ("*");
+    }
+
+    for (i=hexagono;i>1;i--){
+        printf ("\n");
+        for (g = 0;g<hexagono-i;g++){
+            printf (" ");
+        }
+        printf ("*");
+        for (g=0;g<hexagono + 2 * i - 4;g++){
+            printf (" ");
+        }
+        printf ("*");
+    }
+
+    printf ("\n");
+    for (g = 0;g<hexagono - 1;g++){
+        printf (" ");
+    }
+    for (g = 0;g<hexagono;g++){
+        printf ("*");
+    }
+    printf ("\n");
+    
+}
