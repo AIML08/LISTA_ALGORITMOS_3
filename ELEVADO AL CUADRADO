@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+   int N, A, B, C, D, E, F, G, H, I, J;
+   
+   cin >> N ;
+   
+   A=N*2;
+   B=A*2;
+   C=B*2;
+   D=C*2;
+   E=D*2;
+   F=E*2;
+   G=F*2;
+   H=G*2;
+   I=H*2;
+   J=I*2;
+   
+   cout<< A <<" ";
+   cout<< B <<" ";
+   cout<< C <<" ";
+   cout<< D <<" ";
+   cout<< E <<" ";
+   cout<< F <<" ";
+   cout<< G <<" ";
+   cout<< H <<" ";
+   cout<< I <<" ";
+   cout<< J <<" ";
+
+    return 0;
+}
