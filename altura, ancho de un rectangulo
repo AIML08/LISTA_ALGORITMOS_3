@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int H, A, F, C;
+    
+    cout<<"dame la altura:";
+    cin>>H;
+    cout<<"Dime la ancho:";
+    cin>>A;
+    
+    for (F=0; F < H; F=F + 1)
+    {
+        for (C=0; C < A; C=C + 1)
+        cout<<" * ";
+        cout << endl;
+    }
+
+
+
+   return 0;
+}
