@@ -1,0 +1,32 @@
+#include <iostream>
+#include <stdio.h>
+using namespace std;
+
+int main()
+{
+  float calif_1, calif_2, calif_3, promedio;
+  
+   printf("Primera calificacion: "); scanf("%f",&calif_1);
+   printf("Segunda calificacion: "); scanf("%f",&calif_2);
+   printf("Tercera calificacion: "); scanf("%f",&calif_3);
+
+
+
+ promedio = (calif_1 + calif_2 + calif_3) / 3;
+
+
+
+ if(promedio<6)
+  {
+   printf("Reprobado , tu calificacion es: %f ",promedio);
+  }
+  else
+  {
+    printf("Aprobado, tu calificacion es: %f",promedio);
+  }
+
+
+
+}
+
+
